@@ -1,0 +1,21 @@
+html {
+	overflow:hidden;
+}
+
+#b1 {
+	background-color: #116857;
+	width: 110%;
+}
+
+div.principal {
+	background-image: url(../img/segundaus2.png);
+}
+
+p.infoindex {
+	font-family: helvetica;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	text-shadow: 2px 2px 7px black;
+}

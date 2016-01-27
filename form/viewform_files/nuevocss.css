@@ -1,0 +1,68 @@
+p.ss-form-desc {
+	font-size: 25px;
+	font-family: verdana;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+
+
+hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+
+.ss-q-short {
+	width: 340px;
+	height: 25px;
+	margin-left: -40px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: #dcdcdc;
+	border-radius: 2px;
+}
+
+.ss-q-long {
+	width: 340px;
+	height: 25px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: #dcdcdc;
+	border-radius: 2px;
+
+	max-width: 340px;
+	min-width: 340px;
+	min-height: 100px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#ss-submit {
+	margin-left: 65px;
+}
+
+.jfk-button {
+	margin-top: 30px;
+	width: 220px;
+	height: 40px;
+	-webkit-box-shadow: 0px 2px 0px #34495E;
+	font-size: 1em;
+	color: white;
+	outline: none;
+	border: 0px;
+	background-color: #101A23;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.jfk-button:active {
+	margin-top: 3px;
+	-webkit-box-shadow:0px 0px 0px #000000;
+}
