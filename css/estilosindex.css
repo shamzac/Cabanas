@@ -1,6 +1,10 @@
-/*html {
-	overflow:hidden;
-}*/
+article{
+	background-image: url(../img/segundaus2.png);	
+	background-repeat: no-repeat;
+	width: 930px;
+	height: 460px;
+	background-size: 100% 100%;
+}
 
 #b1 {
 	background-color: #116857;
