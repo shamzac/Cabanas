@@ -1,0 +1,39 @@
+﻿commit 597dfe26461d0633c5da3cbe1d6b5ed95bd3e9d0
+
+Author: Samuel <shamzac55@gmail.com>
+
+Date:
+Fri Jan 29 22:17:49 2016 -0300
+Se mejoro el Responsive, se limito la distancia del header, el menu tiene cambios para adaptarse, se agrando el logo, se definio los tamaños de article y se agrego la imagen del Index
+
+
+
+commit 85329843efb0f41df89fb68909ba691037665df6
+
+Author: Samuel <shamzac55@gmail.com>
+
+Date:
+Fri Jan 29 18:13:46 2016 -0300
+Se adaptaron las tres secciones principales del Index a Responsive, hay algunos codigos de Flexbox en el header
+
+
+
+commit ddefc1a91d37fe21c8d6b2c2d1baea54ea8a9fba
+
+Author: Samuel <shamzac55@gmail.com>
+
+Date:
+Thu Jan 28 19:37:27 2016 -0300
+Se elimino Cabanas.rar
+
+
+
+commit 93b1e6e6a26d90c0df85591bb4ae7d623f0a36c2
+
+Author: Samuel <shamzac55@gmail.com>
+
+Date:
+Wed Jan 27 02:16:27 2016 -0300
+
+
+Inicial

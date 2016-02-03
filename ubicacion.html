@@ -6,16 +6,20 @@
 	<link rel="stylesheet" href="css/estilosgenerales.css">
 	<link rel="stylesheet" href="css/estilosubicacion.css">
 	<link rel="shortcut icon" href="img/ico/favicon.png" type="image/png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>
+	<script src="script/prefixfree.min.js"></script>
+	<script src="script/main.js"></script>
 </head>
 <body>
-	<div class="head">
-	<img src="img/logo.png" class="logo">
+	<header>
+	<div class="limiteheader">
+	<div class="logo"><img src="img/logo.png"></div>
 	<p class="infocabecera">Cabañas frente al rio<br>"El Viejo Aaguaribay"<br>Villa Segunda Usina<br>Calamuchita - Córdoba</p>
 	</div>
-	
-	<div class="menuhorizontal">
+	</header>
+
+	<nav class="menuhorizontal">
 		<a href="index.html" class="cancel">
 		<div class="botonesdiv" id="b1"><p class="textomenu">Home</p></div></a>	
 		<a href="ubicacion.html" class="cancel">
@@ -31,53 +35,52 @@
 		<div class="botonesdiv" id="b6"><p class="textomenucabanas">La Mora</p></div></a>
 		<a href="elparaiso.html" class="cancel">	
 		<div class="botonesdiv" id="b7"><p class="textomenucabanas">El Paraiso</p></div></a>
-	</div>
+	</nav>
 
-	<div class="principal"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1497.4549237907088!2d-64.37681871034673!3d-32.16326381150864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDA5JzQ3LjAiUyA2NMKwMjInMzkuMiJX!5e1!3m2!1ses-419!2sar!4v1429312235658" width="465" height="380" frameborder="0" style="border:0"></iframe></div>
-
-	<div class="principal" id="principal2">
-		<div class="indicaciones">
+<section class="principal">
+	<article id="a12">
+		<iframe id="mapagoogle" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1497.4549237907088!2d-64.37681871034673!3d-32.16326381150864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDA5JzQ3LjAiUyA2NMKwMjInMzkuMiJX!5e1!3m2!1ses-419!2sar!4v1429312235658" width="50%" height="380" frameborder="0" style="border:0">
+		</iframe>
+	
+		<article id="a2">
 		<p class="titleindicaciones">Desde Buenos Aires</p>
 		<hr>
 		<p class="pindicaciones">Por Ruta Nac. 8 hasta Río Cuarto, desde allí por ruta Prov. 5 hacia el Norte hasta Embalse Una vez en Embalse sobre la misma ruta a dos cuadras pasando la "Rotonda del Monolito", doblar a la derecha hacia Segunda Usina, a cien metros aprox. hay una bifurcación, tomar el camino de tierra de la izquierda y luego de seis Km. apenas entra a la Villa llega frente de las Cabañas.</p>
-		</div>
-	</div>
-	<div class="principal" id="principal3">
-		<div class="indicaciones">
+		</article>
+	</article>
+
+	<article id="a3">
 		<p class="titleindicaciones">Desde Buenos Aires/Rosario</p>
 		<hr>
 		<p class="pindicaciones">Por Ruta Nac. 9 hasta Villa María, desviando por 158 hasta Prov. 6 tomando a la derecha en Dalmacio Vélez Sarsfield, llegando a Almafuerte y luego por Prov. A 5 a Embalse y de allí a Villa Segunda Usina por Camino Vecinal. Una variante es antes de Rosario en el cruce a Zaballa tomar la ruta hacia Arequito (Sta. Fe) por la misma a Cruz Alta (Cba.) y por ruta Prov.6 hasta Almafuerte y de allí a Embalse y luego a Villa Segunda Usina</p>
-		</div>		
-	</div>
-	<div class="principal" id="principal4">
-		<div class="indicaciones">
+	</article>
+
+	<article id="a4">
 		<p class="titleindicaciones">Desde Santa Fe</p>
 		<hr>
 		<p class="pindicaciones">Por Ruta Nac. 19 hasta San Francisco. Pasando la ciudad doblar a la izquierda en el cruce con la Nac. 158 hasta Villa María y seguir las instrucciones anteriores.</p>
-		</div>
-	</div>
-	<div class="principal" id="principal5">
-		<div class="indicaciones">
+		</article>
+
+	<article id="a5">
 		<p class="titleindicaciones">Desde el Sur / La Pampa / Mendoza</p>
 		<hr>
 		<p class="pindicaciones">Llegar hasta Río Cuarto de allí por Ruta Prov. 5 a Embalse luego a Villa Segunda Usina</p>
-		</div>
-	</div>
-	<div class="principal" id="principal6">
-		<div class="indicaciones">
+	</article>
+
+	<article id="a6">
 		<p class="titleindicaciones">Desde el Norte / Córdoba</p>
 		<hr>
 		<p class="pindicaciones">Por Ruta Prov. 5 hacia el Sur hasta Embalse y luego Villa Segunda Usina ó Nac. 36 hasta Almafuerte de allí hasta Embalse.</p>
-		</div>
-	</div>
-	<div class="principal" id="principal7">
-		<div class="indicaciones">
+	</article>
+
+	<article id="a7">
 		<p class="titleindicaciones">Distancias</p>
 		<hr>
 		<p class="pindicaciones">A Embalse: 7Km<br>
 		A Santa Rosa de Calamuchita: 30Km<br>
 		A Villa Gral. Belgrano: 45Km</p>
-		</div>
-	</div>
+	</article>
+	
+	</section>
 </body>
 </html>

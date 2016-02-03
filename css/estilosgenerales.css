@@ -1,7 +1,7 @@
 * {
 	padding:0;
 	margin:0;
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
 
 html {
@@ -29,8 +29,8 @@ header {
 	box-shadow: 0px 4px 10px;
 
 	display: flex;
-	justify-content:space-between;
-	align-items:center;
+	justify-content: space-between;
+	align-items: center;
 }
 
 div.limiteheader {
@@ -38,8 +38,8 @@ div.limiteheader {
 	margin: auto;
 
 	display: flex;
-	justify-content:space-between;
-	align-items:center;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo img{
@@ -76,7 +76,7 @@ div.botonesdiv {
 	margin-bottom: 3px;
 	margin-top: 3px;
 	cursor: pointer;
-	-webkit-transition: .15s;
+	transition: .15s;
 }
 
 .cancel {
@@ -183,13 +183,14 @@ section.principal{
 	display: inline-block;
 	height: 100%;
 	width: 78%;
-	background-color: orange;
 	float: right;
 }
 
 article {
+	position: relative;
 	width: 90%;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 25px;
 	padding: 20px;
+	background-color: #22313F;
 }

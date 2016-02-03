@@ -7,8 +7,20 @@ html {
 	width: 110%;
 }
 
-.mapagoogle {
-	
+#mapagoogle {
+
+}
+
+#a12 {
+	padding: 0px;
+	height: 380px;
+}
+
+#a2 {
+	margin: 0px;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
 }
 
 p.titleindicaciones {
@@ -32,55 +44,4 @@ hr {
 	background:#F64740;
 	height:5px;
 	border:none;
-}
-
-div#principal2 {
-	background-color: #22313F;
-	padding: 15px;
-	margin-top: -460px;
-	height: 350px;
-	width: 435px;
-	margin-bottom: 25px;
-	margin-left: ;
-	padding-left: 480px;
-}
-
-div#principal3 {
-	background-color: #22313F;
-	padding: 15px;
-	margin-top: 30px;
-	height: 150px;
-	margin-bottom: 25px;
-}
-
-div#principal4 {
-	background-color: #22313F;
-	padding: 15px;
-	margin-top: 30px;
-	height: 108px;
-	margin-bottom: 25px;
-}
-
-div#principal5 {
-	background-color: #22313F;
-	padding: 15px;
-	margin-top: 30px;
-	height: 75px;
-	margin-bottom: 25px;
-}
-
-div#principal6 {
-	background-color: #22313F;
-	padding: 15px;
-	margin-top: 30px;
-	height: 100px;
-	margin-bottom: 25px;
-}
-
-div#principal7 {
-	background-color: #22313F;
-	padding: 15px;
-	margin-top: 30px;
-	height: 124px;
-	margin-bottom: 25px;
 }

@@ -1,8 +1,7 @@
-article{
+article {
+	height: 460px;
 	background-image: url(../img/segundaus2.png);	
 	background-repeat: no-repeat;
-	width: 930px;
-	height: 460px;
 	background-size: 100% 100%;
 }
 
@@ -12,9 +11,13 @@ article{
 }
 
 p.infoindex {
+	position: absolute;
 	font-family: helvetica;
 	font-size: 20px;
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 7px black;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
