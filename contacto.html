@@ -6,16 +6,20 @@
 	<link rel="stylesheet" href="css/estilosgenerales.css">
 	<link rel="stylesheet" href="css/estiloscontacto.css">
 	<link rel="shortcut icon" href="img/ico/favicon.png" type="image/png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>
+	<script src="script/prefixfree.min.js"></script>
+	<script src="script/main.js"></script>
 </head>
 <body>
-	<div class="head">
-	<img src="img/logo.png" class="logo">
+	<header>
+	<div class="limiteheader">
+	<div class="logo"><img src="img/logo.png"></div>
 	<p class="infocabecera">Cabañas frente al rio<br>"El Viejo Aaguaribay"<br>Villa Segunda Usina<br>Calamuchita - Córdoba</p>
 	</div>
-	
-	<div class="menuhorizontal">
+	</header>
+
+	<nav class="menuhorizontal">
 		<a href="index.html" class="cancel">
 		<div class="botonesdiv" id="b1"><p class="textomenu">Home</p></div></a>	
 		<a href="ubicacion.html" class="cancel">
@@ -31,33 +35,32 @@
 		<div class="botonesdiv" id="b6"><p class="textomenucabanas">La Mora</p></div></a>
 		<a href="elparaiso.html" class="cancel">	
 		<div class="botonesdiv" id="b7"><p class="textomenucabanas">El Paraiso</p></div></a>
-	</div>
+	</nav>
 
-	<div class="principal" id="principal1">
-		<div class="info">
-		<p class="titleinfo">Por E-mail</p>
+<section class="principal">
+	<article id="a1">
+		<p class="titlearticle">Por E-mail</p>
 		<hr>
-		<a href="http://cabaniaselviejoaguaribay@hotmail.com" class="cancel"><p class="pinfo">E-mail: cabaniaselviejoaguaribay@hotmail.com</p></a>
-		</div>
-	</div>
+		<a href="http://cabaniaselviejoaguaribay@hotmail.com" class="cancel"><p class="particle">E-mail: cabaniaselviejoaguaribay@hotmail.com</p></a>
+	</article>
 
-	<div class="principal" id="principal2">
+	<article id="a2">
 		<div class="info">
-		<p class="titleinfo">Por Teléfono</p>
+		<p class="titlearticle">Por Teléfono</p>
 		<hr>
-		<p class="pinfo">Flia. Chiavassa: (03571)425007<br>Nestor: (03571)15607023<br>Susana: (03571)15607021<br>José: (0351)152457589</p>
-		</div>
-	</div>
+		<p class="particle">Flia. Chiavassa: (03571)425007<br>Nestor: (03571)15607023<br>Susana: (03571)15607021<br>José: (0351)152457589</p>
+	</article>
 
-	<div class="principal" id="principal3">
-		<div class="info">
-		<p class="titleinfo">Personalmente</p>
+	<article id="a3">
+		<p class="titlearticle">Personalmente</p>
 		<hr>
-		<p class="pinfo">En Río Tercero: Leandro N. Alem Nº 923<br>En Segunda Usina: En las cabañas o preguntar por Flia CHIAVASSA</p>
-		</div>
-	</div>
-	<div class="principal">
-	<iframe id="formulario" src="form/viewform.html" width="930px" height="900px" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-	</div>
+		<p class="particle">En Río Tercero: Leandro N. Alem Nº 923<br>En Segunda Usina: En las cabañas o preguntar por Flia CHIAVASSA</p>
+	</article>
+	
+	<article id="formulario">
+		<iframe id="formularioiframe" src="form/viewform.html" width="100%" height="900px" frameborder="0" marginheight="0" marginwidth="0">
+		</iframe>
+	</article>
+</section>
 </body>
 </html>
