@@ -22,26 +22,3 @@ html {
 	display: inline-block;
 	position: absolute;
 }
-
-p.titleindicaciones {
-	padding-top: -5px;
-	padding-bottom: 8px;
-	font-size: 25px;
-	font-family: verdana;
-	color: white;
-}
-
-p.pindicaciones {
-	font-size: 18px;
-	font-family: helvetica;
-	color: white;
-	padding-top: 5px;
-	padding-left: -5px;
-	padding-right: -5px;
-}
-
-hr {
-	background:#F64740;
-	height:5px;
-	border:none;
-}

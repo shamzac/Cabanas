@@ -194,3 +194,34 @@ article {
 	padding: 20px;
 	background-color: #22313F;
 }
+
+p.titlearticle {
+	padding-top: -5px;
+	padding-bottom: 8px;
+	font-size: 25px;
+	font-family: verdana;
+	color: white;
+}
+
+p.particle {
+	font-size: 18px;
+	font-family: helvetica;
+	color: white;
+	padding-top: 5px;
+	padding-left: -5px;
+	padding-right: -5px;
+}
+
+p.destacadoarticle {
+	font-size: 30px;
+	font-family: helvetica;
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+}
+
+hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
