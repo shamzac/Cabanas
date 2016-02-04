@@ -4,18 +4,24 @@
 	<meta charset="UTF-8">
 	<title>Cabañas el Viejo Aguaribay</title>
 	<link rel="stylesheet" href="css/estilosgenerales.css">
-	<link rel="stylesheet" href="css/estiloslamora.css">	
+	<link rel="stylesheet" href="css/estiloslamora.css">
 	<link rel="shortcut icon" href="img/ico/favicon.png" type="image/png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>
+	<script src="script/prefixfree.min.js"></script>
+	<script src="https://npmcdn.com/masonry-layout@4.0.0/dist/masonry.pkgd.min.js"></script>
+	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
+	<script src="script/main.js"></script>
 </head>
 <body>
-	<div class="head">
-	<img src="img/logo.png" class="logo">
+	<header>
+	<div class="limiteheader">
+	<div class="logo"><img src="img/logo.png"></div>
 	<p class="infocabecera">Cabañas frente al rio<br>"El Viejo Aaguaribay"<br>Villa Segunda Usina<br>Calamuchita - Córdoba</p>
 	</div>
-	
-	<div class="menuhorizontal">
+	</header>
+
+	<nav class="menuhorizontal">
 		<a href="index.html" class="cancel">
 		<div class="botonesdiv" id="b1"><p class="textomenu">Home</p></div></a>	
 		<a href="ubicacion.html" class="cancel">
@@ -31,8 +37,34 @@
 		<div class="botonesdiv" id="b6"><p class="textomenucabanas">La Mora</p></div></a>
 		<a href="elparaiso.html" class="cancel">	
 		<div class="botonesdiv" id="b7"><p class="textomenucabanas">El Paraiso</p></div></a>
-	</div>
+	</nav>
 
-	<div class="principal"></div>
+<section class="principal">
+<article id="a12">
+	<article id="a1">
+		<p class="titlearticle">La Mora</p>
+		<hr>
+		<p class="particle">Cabaña frente al río. Dos dormitorios, DIRECTv, ventiladores de techo, calefactor, termo- tanque, hogar a leña, heladera con freezer, vajilla completa, ropa de cama, toallas, cochera, asador individual, gran parque arbolado, todos los servicios.</p>
+	</article>
+</article>
+	<article id="a3">
+	<div class="contenedorimages">
+		<div class="imagen"><img src="http://lorempixel.com/350/200" alt=""></div>
+		<div class="imagen"><img src="http://lorempixel.com/350/400" alt=""></div>
+		<div class="imagen"><img src="http://lorempixel.com/350/300" alt=""></div>
+		<div class="imagen"><img src="http://lorempixel.com/350/700" alt=""></div>
+		<div class="imagen"><img src="http://lorempixel.com/350/450" alt=""></div>
+		<div class="imagen"><img src="http://lorempixel.com/350/150" alt=""></div>
+		<div style="clear:both;"><!-- Regular el Height--></div>
+	</div>
+	</article>
+</section>
+
+	<script>
+		var $container = $('.contenedorimages'); 
+		$container.imagesLoaded( function() {
+		$container.masonry();
+		});	
+	</script>
 </body>
 </html>

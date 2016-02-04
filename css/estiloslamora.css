@@ -3,6 +3,40 @@
 	width: 110%;
 }
 
-div.principal {
-	background-color: white;
+section.principal {
+
+}
+
+p.particle {
+	font-size: 22px;
+}
+
+#a12 {
+	padding: 0px;
+	height: 380px;
+}
+
+#a1 {
+	margin: 0px;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+}
+
+.contenedorimages {
+	width: 100%;
+	margin: auto;
+}
+
+div.imagen {
+	float: left;
+	width: 350px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+
+}
+
+div.imagen img {
+	width: 100%;
+	border-radius: 4px;
 }
