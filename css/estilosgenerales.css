@@ -67,6 +67,7 @@ nav.menuhorizontal {
 	background-color: #052922;	
 	box-shadow: 4px 4px 1px #161616;
 	max-width: 380px;
+	min-width: 195px;
 }
 
 div.botonesdiv {
