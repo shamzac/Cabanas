@@ -3,5 +3,7 @@
 	width: 110%;
 }
 
-div.principal {
+article#a1 {
+	padding: 0px;
+	background-color: transparent;
 }

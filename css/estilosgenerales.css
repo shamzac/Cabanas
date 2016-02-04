@@ -180,10 +180,10 @@ p.datos {
 }
 
 section.principal{
+	float: right !important;
 	display: inline-block;
 	height: 100%;
-	width: 78%;
-	float: right;
+	width: 78%;	
 }
 
 article {
