@@ -11,6 +11,10 @@ p.particle {
 	font-size: 22px;
 }
 
+#mascotas {
+	text-align: center;
+}
+
 #a12 {
 	padding: 0px;
 	height: 380px;
@@ -23,20 +27,36 @@ p.particle {
 	position: absolute;
 }
 
-.contenedorimages {
-	width: 100%;
-	margin: auto;
+.fotocabana {
+	width: 50%;
+	float: right;
+	max-height: 400px;
+	top: 50%;
 }
+
+#a3 {
+}
+
+.contenedorimages {
+	max-width: 780px;
+    margin: auto;
+} 
 
 div.imagen {
 	float: left;
-	width: 350px;
-	margin-right: 15px;
-	margin-bottom: 15px;
+	width: 375px;
+	margin: 7.5px;
 
 }
 
 div.imagen img {
 	width: 100%;
 	border-radius: 4px;
+}
+
+@media screen and (max-width: 1167px) {
+
+	.contenedorimages {
+		max-width: 390px;
+    	margin: auto;
 }
