@@ -23,7 +23,7 @@ body {
 }
 
 header {
-	padding: 16px;
+	padding: 15px;
 	width: 100%;
 	background-color: #052922;
 	box-shadow: 0px 4px 10px;
@@ -48,7 +48,7 @@ div.limiteheader {
 
 p.infocabecera {
 	font-family: verdana;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	text-align: right;
 	text-shadow: 3px 3px 5px black;
@@ -60,11 +60,17 @@ body {
 	background-repeat: repeat;
 }
 
+.completar {
+	height: 60px;
+	width: 100%;
+	background-color: #0A3F34;
+}
+
 nav.menu {
 	width: 90%;
 	margin: auto;
 	max-width: 1170px;
-	background-color: #052922;
+	background-color: #0A3F34;
 }
 
 nav ul {
@@ -75,7 +81,6 @@ nav > ul {
 	display: table;
 	overflow: hidden;
 	width: 100%;
-	background: black;
 	position: relative;
 }
 
@@ -88,6 +93,8 @@ nav > ul > li > ul {
 }
 
 nav > ul li a {
+	font-family: verdana;
+	font-size: 18px;
 	text-decoration: none;
 	color: white;
 	display: block;
@@ -95,71 +102,68 @@ nav > ul li a {
 	padding: 20px;
 	position: relative;
 	text-align: center;
+	background-color: #0A3F34;
+	overflow: hidden;
+}
+
+nav > ul > li > a span {
+	background:#116857;
+	display:block;
+	height:100%;
+	width:100%;
+	position:absolute;
+	/*left:-96%;*/
+	width: 5px;
+	left: 0;
+	top: 0px;
 	transition: .3s;
 }
 
-
-
-div.botonesdiv {
-	display: inline-block;
-	height: 60px;
-	width: 20%;
-	background-color: #0A3F34;
-	cursor: pointer;
-	transition: .15s;
-}
-
-#bs {
-	height: 40px;
-	background-color: #052922;
-}
-
-p.textomenusepar{
-	text-decoration: none;
-	font-family: verdana;
-	font-size: 20px;
-	color: white;
-	cursor: pointer;
-	padding-left: 63px;
-	padding-top: 5px;
-	text-shadow: 3px 3px 5px black;
-}
-
-.textomenu {
-	padding-left: 60px;
+nav > ul > li > a span .icon {
+	display: block;
 	line-height: 60px;
-	text-decoration: none;
-	font-family: verdana;
-	font-size: 20px;
-	text-shadow: 3px 3px 5px black;
-	color: white;
-	cursor: pointer;
+	font-size: 25px;
+	opacity: 0;
+	transition: .3s;
 }
 
-.textomenucabanas {
-	padding-left: 75px;
-	line-height: 60px;
-	text-decoration: none;
-	font-family: verdana;
-	font-size: 20px;
-	text-shadow: 3px 3px 5px black;
-	color: white;
-	cursor: pointer;
-}
-/*
-#bDatos {
-	height: 100px;
+nav > ul > li > a:hover > span {
+	width: 100%;
+	/*top: 0px;*/
 }
 
-p.datos {
-	font-family: verdana;
-	font-size: 18px;
-	color: white;
-	text-align: center;
+nav > ul > li > a:hover > span .icon{
+	opacity: 1;
+	/**/
 }
-*/
-#b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover{
-	background-color: #116857;
+
+nav > ul > li > ul a:hover {
+	background: red;
+}
+
+/*Colores Menu*/
+nav ul li a #b1 {
+	background: #116857;
+}
+ 
+nav ul li a #b2 {
+	background: #116857;
+}
+ 
+nav ul li a #b3 {
+	background: #116857;
+}
+ 
+nav ul li a #b4 {
+	background: #116857;
+}
+ 
+nav ul li a #b5 {
+	background: #116857;
+}
+
+nav ul li a #b6 {
+	background: #116857;
 }
 
 section.principal{
