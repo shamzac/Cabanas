@@ -34,7 +34,7 @@ header {
 }
 
 div.limiteheader {
-	width: 1500px;
+	width: 1170px;
 	margin: auto;
 
 	display: flex;
@@ -60,28 +60,53 @@ body {
 	background-repeat: repeat;
 }
 
-nav.menuhorizontal {
-	width: 22%;
-	height: 100%;
-	display: inline-block;
-	background-color: #052922;	
-	box-shadow: 4px 4px 1px #161616;
-	max-width: 380px;
-	min-width: 195px;
+nav.menu {
+	width: 90%;
+	margin: auto;
+	max-width: 1170px;
+	background-color: #052922;
 }
+
+nav ul {
+	list-style: none;
+}
+
+nav > ul {
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	background: black;
+	position: relative;
+}
+
+nav > ul li {
+	display: table-cell;
+}
+
+nav > ul > li > ul {
+	display: none;
+}
+
+nav > ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	transition: .3s;
+}
+
+
 
 div.botonesdiv {
+	display: inline-block;
 	height: 60px;
-	width: 100%;
+	width: 20%;
 	background-color: #0A3F34;
-	margin-bottom: 3px;
-	margin-top: 3px;
 	cursor: pointer;
 	transition: .15s;
-}
-
-.cancel {
-	text-decoration: none;
 }
 
 #bs {
@@ -98,48 +123,6 @@ p.textomenusepar{
 	padding-left: 63px;
 	padding-top: 5px;
 	text-shadow: 3px 3px 5px black;
-}
-
-#b1 {
-	background-image: url(../img/ico/home.svg);
-	background-repeat: no-repeat;
-	background-position: 12px center;
-}
-
-#b2 {
-	background-image: url(../img/ico/location.svg);
-	background-repeat: no-repeat;
-	background-position: 12px center;
-}
-
-#b3 {
-	background-image: url(../img/ico/info.svg);
-	background-repeat: no-repeat;
-	background-position: 12px center;
-}
-
-#b4 {
-	background-image: url(../img/ico/images.svg);
-	background-repeat: no-repeat;
-	background-position: 12px center;
-}
-
-#b5 {
-	background-image: url(../img/ico/envelop.svg);
-	background-repeat: no-repeat;
-	background-position: 12px center;
-}
-
-#b6 {
-	background-image: url(../img/ico/home3.svg);
-	background-repeat: no-repeat;
-	background-position: 20px center;
-}
-
-#b7 {
-	background-image: url(../img/ico/home3.svg);
-	background-repeat: no-repeat;
-	background-position: 20px center;
 }
 
 .textomenu {
@@ -177,20 +160,18 @@ p.datos {
 */
 #b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover{
 	background-color: #116857;
-	width: 110%;
 }
 
 section.principal{
-	float: right !important;
-	display: inline-block;
-	height: 100%;
-	width: 78%;	
+	margin: auto;
+	display: block;
+	width: 90%;	
 }
 
 article {
+	max-width: 1500px;
 	position: relative;
-	width: 90%;
-	max-width: 1030px;
+	width: 100%;
 	margin: auto;
 	margin-top: 25px;
 	padding: 20px;
