@@ -86,17 +86,12 @@ nav ul {
 
 nav > ul {
 	display: table;
-	overflow: hidden;
 	width: 100%;
 	position: relative;
 }
 
 nav > ul li {
 	display: table-cell;
-}
-
-nav > ul > li > ul {
-	display: none;
 }
 
 nav > ul li a {
@@ -114,11 +109,11 @@ nav > ul li a {
 }
 
 nav > ul > li > a span {
-	background:#116857;
-	display:block;
-	height:100%;
-	width:100%;
-	position:absolute;
+	background: #116857;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 	left: 0;
 	top: 55px;
 	transition: .22s;
@@ -136,9 +131,33 @@ nav > ul > li > a:hover > span {
 }
 
 nav > ul > li > ul a:hover {
-	background: red;
+	
 }
 
+/*Cabanas*/
+nav > ul > li:hover > ul {
+	height: 120px;
+}
+ 
+nav > ul > li > ul {
+	z-index: 1;
+	display: block;
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	height: 0%;
+	transition: .3s;
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+
+nav > ul > li > ul > li {
+	display: block;
+	height: 60px;
+	width: 194px;
+}
 /*Colores Menu*/
 nav ul li a #b1 {
 	background: #116857;

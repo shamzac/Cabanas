@@ -1,6 +1,5 @@
-#b6 {
-	background-color: #116857;
-	width: 110%;
+#spanb6 {
+	top: 0;
 }
 
 section.principal {
@@ -54,8 +53,7 @@ div.imagen img {
 	border-radius: 4px;
 }
 
-@media screen and (max-width: 1167px) {
-
+@media screen and (max-width: 912px) {
 	.contenedorimages {
 		max-width: 390px;
     	margin: auto;
