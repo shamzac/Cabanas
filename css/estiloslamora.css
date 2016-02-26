@@ -2,10 +2,6 @@
 	top: 0;
 }
 
-section.principal {
-
-}
-
 p.particle {
 	font-size: 22px;
 }
@@ -16,7 +12,7 @@ p.particle {
 
 #a12 {
 	padding: 0px;
-	height: 380px;
+	height: 364px;
 }
 
 #a1 {
@@ -26,11 +22,16 @@ p.particle {
 	position: absolute;
 }
 
-.fotocabana {
-	width: 50%;
+#a2 {
 	float: right;
-	max-height: 400px;
-	top: 50%;
+	margin: 0px;
+	width: 50%;
+	display: inline-block;
+}
+
+.fotocabana {
+	width: 100%;
+
 }
 
 #a3 {
