@@ -35,9 +35,17 @@ p.infoindex {
 	article {
 	height: 360px;
 }
+}/*Final Media Querie*/
 
+@media screen and (max-width: 400px) {
 
-
-
-
+	p.infoindex {
+	font-size: 13px;
 }
+
+	article {
+	height: 260px;
+}
+
+
+}/*Final Media Querie*/

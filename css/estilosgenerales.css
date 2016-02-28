@@ -78,32 +78,28 @@ hr#navline {
 	margin-top: -5px;
 }
 
-.menu_bar {
-	display: none;
-}
-
-nav.menu {
+nav.menu_normal {
 	width: 90%;
 	margin: auto;
 	max-width: 1170px;
 	background-color: #0A3F34;
 }
 
-nav ul {
+nav ul.ul_normal {
 	list-style: none;
 }
 
-nav > ul {
+nav > ul.ul_normal {
 	display: table;
 	width: 100%;
 	position: relative;
 }
 
-nav > ul li {
+nav > ul.ul_normal li.li_normal {
 	display: table-cell;
 }
 
-nav > ul li a {
+nav > ul.ul_normal li.li_normal a {
 	font-family: verdana;
 	font-size: 18px;
 	text-decoration: none;
@@ -117,7 +113,7 @@ nav > ul li a {
 	overflow: hidden;
 }
 
-nav > ul > li > a span {
+nav > ul.ul_normal > li.li_normal > a span {
 	background: #116857;
 	display: block;
 	height: 100%;
@@ -128,28 +124,28 @@ nav > ul > li > a span {
 	transition: .22s;
 }
 
-nav > ul > li > a span .icon {
+nav > ul.ul_normal > li.li_normal > a span .icon {
 	display: block;
 	line-height: 60px;
 	font-size: 25px;
 	transition: .22s;
 }
 
-nav > ul > li > a:hover > span {
+nav > ul.ul_normal > li.li_normal > a:hover > span {
 	top: 0px;
 }
 
-nav > ul > li > ul a:hover {
+nav > ul.ul_normal > li.li_normal > ul a:hover {
 	
 }
 
 /*Cabanas*/
-nav > ul > li:hover > ul {
+nav > ul.ul_normal > li.li_normal:hover > ul {
 	height: 120px;
 }
  
-nav > ul > li > ul {
-	z-index: 1;
+nav > ul.ul_normal > li.li_normal > ul {
+	z-index: 1000;
 	display: block;
 	position: absolute;
 	right: 0;
@@ -158,41 +154,111 @@ nav > ul > li > ul {
 	transition: .3s;
 }
 
-nav > ul > li > ul > li a:hover {
+nav > ul.ul_normal > li.li_normal > ul > li a:hover {
 	background:#5da5a2;
 }
 
-nav > ul > li > ul > li {
+nav > ul.ul_normal > li.li_normal > ul > li {
 	display: block;
 	height: 60px;
 	width: 194px;
 }
 
 /*Colores Menu*/
-nav ul li a #b1 {
+nav ul.ul_normal li.li_normal a #b1 {
 	background: #116857;
 }
  
-nav ul li a #b2 {
+nav ul.ul_normal li.li_normal a #b2 {
 	background: #116857;
 }
  
-nav ul li a #b3 {
+nav ul.ul_normal li.li_normal a #b3 {
 	background: #116857;
 }
  
-nav ul li a #b4 {
+nav ul.ul_normal li.li_normal a #b4 {
 	background: #116857;
 }
  
-nav ul li a #b5 {
+nav ul.ul_normal li.li_normal a #b5 {
 	background: #116857;
 }
 
-nav ul li a #b6 {
+nav ul.ul_normal li.li_normal a #b6 {
 	background: #116857;
 }
 
+/*Menu Resonsive*/
+div.menu_bar {
+	display: none;
+}
+
+.menu_bar {
+	height: 60px;
+	width: 100%;
+	background-color: #0A3F34;
+}
+
+.menu_bar a.bt-menu {
+	padding-left: 30px;
+	line-height: 60px;
+	color: white;
+	font-family: verdana;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+span.icon-menu {
+	float: right;
+	padding: 20px;
+}
+
+nav.responsive {
+	display: block;
+}
+
+nav.responsive > ul {
+	position: absolute;
+	background-color: #0A3F34;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	z-index: 1100;
+}
+
+nav.responsive > ul > li {
+	display: block;
+	height: 50px;
+	width: 100%;
+	background: #116857;
+	margin-bottom: 3px;
+}
+
+nav.responsive > ul > li a {
+	font-size: 18px;
+	font-family: verdana;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+nav.responsive > ul > li a .icon_responsive {
+	font-size: 20px;
+	line-height: 50px;
+	padding: 15px;
+}
+
+nav.responsive > ul > li > a#b6_responsive {
+	margin-left: 25px;
+}
+
+li#li_cabanas {
+	background: #0A3F34;
+}
+
+/*Fin Menu Responsive*/
 section.principal{
 	margin: auto;
 	display: block;
@@ -200,6 +266,7 @@ section.principal{
 }
 
 article {
+	z-index: 20;
 	max-width: 1170px;
 	position: relative;
 	width: 100%;
@@ -253,14 +320,14 @@ hr {
 }
 
 	p.infocabecera {
-	font-size: 12px;
-}
-
-	nav > ul li a {
 	font-size: 14px;
 }
 
-	nav > ul > li > ul > li {
+	nav.menu_normal > ul li a {
+	font-size: 14px;
+}
+
+	nav.menu_normal > ul > li > ul > li {
 	width: 120px;
 }
 }/*Final Media Querie*/
@@ -284,6 +351,18 @@ hr {
 	
 	p.particle {
 	text-align: left !important;
+}
+
+	nav.menu_normal {
+	display: none !important;
+}
+
+	div.menu_bar {
+	display: block !important;
+}
+	
+	hr#navline {
+	display: none;
 }
 
 }/*Final Media Querie*/

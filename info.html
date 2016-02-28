@@ -7,36 +7,129 @@
 	<link rel="stylesheet" href="icons.css">
 	<link rel="stylesheet" href="css/estilosinfo.css">
 	<link rel="shortcut icon" href="img/ico/favicon.png" type="image/png" />
-	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="script/prefixfree.min.js"></script>
 	<script src="script/main.js"></script>
+	<script src="script/prefixfree.min.js"></script>
 </head>
 <body>
 	<header>
 	<div class="limiteheader">
 	<div class="logo"><img src="img/logo.png"></div>
-	<p class="infocabecera">Cabañas frente al río<br>"El Viejo Aguaribay"<br>Villa Segunda Usina<br>Calamuchita - Córdoba</p>
+	<p class="infocabecera" id="normal">Cabañas frente al río<br>"El Viejo Aguaribay"<br>Villa Segunda Usina<br>Calamuchita - Córdoba</p>
+	<p class="infocabecera" id="dosbr">Cabañas frente al río "El Viejo Aguaribay"<br>Villa Segunda Usina - Calamuchita - Córdoba</p>
 	</div>
 	</header>
-<div class="completar">
-	<nav class="menu">
-		<ul>
-			<li><a href="index.html" id="b1"><span id="spanb1"><i class="icon icon-home"></i></span>Home</a></li>
-			<li><a href="ubicacion.html" id="b2"><span id="spanb2"><i class="icon icon-location"></i></span>Ubicación</a></li>
-			<li><a href="info.html" id="b3"><span id="spanb3"><i class="icon icon-info"></i></span>Información</a></li>
-			<li><a href="galeria.html" id="b4"><span id="spanb4"><i class="icon icon-images"></i></span>Galería</a></li>
-			<li><a href="contacto.html" id="b5"><span id="spanb5"><i class="icon icon-envelop"></i></span>Contacto</a></li>
-			<li><a href="#" id="b6"><span id="spanb6"><i class="icon icon-home3"></i></span>Cabañas</a>
+
+<div class="wrap">
+	<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+	</div>
+
+	<nav class="menu_normal">
+		<ul class="ul_normal">
+			<li class="li_normal">
+			<a href="index.html" id="b1"><span id="spanb1">
+			<i class="icon icon-home"></i>
+			</span>Home</a>
+			</li>
+
+			<li class="li_normal">
+			<a href="ubicacion.html" id="b2"><span id="spanb2">
+			<i class="icon icon-location"></i>
+			</span>Ubicación</a>
+			</li>
+
+			<li class="li_normal">
+			<a href="info.html" id="b3"><span id="spanb3">
+			<i class="icon icon-info"></i>
+			</span>Información</a>
+			</li>
+
+			<li class="li_normal">
+			<a href="galeria.html" id="b4"><span id="spanb4">
+			<i class="icon icon-images"></i>
+			</span>Galería</a>
+			</li>
+
+			<li class="li_normal">
+			<a href="contacto.html" id="b5"><span id="spanb5">
+			<i class="icon icon-envelop"></i>
+			</span>Contacto</a>
+			</li>
+
+			<li class="li_normal">
+			<a href="#" id="b6"><span id="spanb6">
+			<i class="icon icon-home3"></i>
+			</span>Cabañas</a>
 				<ul>
-					<li><a href="lamora.html">La Mora</a></li>
-					<li><a href="elparaiso.html">El Paraiso</a></li>
+					<li class="li_submenu"><a href="lamora.html">La Mora</a></li>
+					<li class="li_submenu"><a href="elparaiso.html">El Paraiso</a></li>
 				</ul>
 			</li>
 		</ul>
-	</div>
 	</nav>
-<hr id="nav">
+
+
+	<nav class="responsive">
+		<ul class="ul_responsive">
+			<li class="li_responsive">
+			<a class="a_responsive" href="index.html" id="b1_responsive">
+			<span id="spanb1_responsive">
+			<i class="icon_responsive icon-home"></i></span>
+			Home</a>
+			</li>
+
+			<li class="li_responsive">
+			<a class="a_responsive" href="ubicacion.html" id="b2_responsive">
+			<span id="spanb2_responsive">
+			<i class="icon_responsive icon-location"></i></span>
+			Ubicación</a>
+			</li>
+
+			<li class="li_responsive">
+			<a class="a_responsive" href="info.html" id="b3_responsive">
+			<span id="spanb3_responsive">
+			<i class="icon_responsive icon-info"></i></span>
+			Información</a>
+			</li>
+
+			<li class="li_responsive">
+			<a class="a_responsive" href="galeria.html" id="b4_responsive">
+			<span id="spanb4_responsive">
+			<i class="icon_responsive icon-images"></i></span>
+			Galería</a>
+			</li>
+
+			<li class="li_responsive">
+			<a class="a_responsive" href="contacto.html" id="b5_responsive">
+			<span id="spanb5_responsive">
+			<i class="icon_responsive icon-envelop"></i></span>
+			Contacto</a>
+			</li>
+
+			<li class="li_responsive" id="li_cabanas">
+			<a class="a_responsive" href="#" id="b6_responsive">
+			<span id="spanb6_responsive"></span>
+			Cabañas</a>
+			</li>
+
+			<li class="li_responsive">
+			<a class="a_responsive" href="lamora.html" id="b7_responsive">
+			<span id="spanb7_responsive">
+			<i class="icon_responsive icon-home3"></i></span>
+			La Mora</a>
+			</li>
+
+			<li class="li_responsive">
+			<a class="a_responsive" href="elparaiso.html" id="b8_responsive">
+			<span id="spanb8_responsive">
+			<i class="icon_responsive icon-home3"></i></span>
+			El Paraiso</a>
+			</li>
+		</ul>
+	</nav>
+<hr id="navline">
 </div>
 
 <section class="principal">
