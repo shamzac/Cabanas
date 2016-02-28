@@ -1,8 +1,61 @@
-#b6 {
-	background-color: #116857;
-	width: 110%;
+#spanb6 {
+	top: 0;
 }
 
-div.principal {
-	background-color: white;
+p.particle {
+	font-size: 22px;
+}
+
+#mascotas {
+	text-align: center;
+}
+
+#a12 {
+	padding: 0px;
+	height: 364px;
+}
+
+#a1 {
+	margin: 0px;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+}
+
+#a2 {
+	float: right;
+	margin: 0px;
+	width: 50%;
+	display: inline-block;
+}
+
+.fotocabana {
+	width: 100%;
+
+}
+
+#a3 {
+}
+
+.contenedorimages {
+	max-width: 780px;
+    margin: auto;
+} 
+
+div.imagen {
+	float: left;
+	width: 375px;
+	margin: 7.5px;
+
+}
+
+div.imagen img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 912px) {
+	.contenedorimages {
+		max-width: 390px;
+    	margin: auto;
 }

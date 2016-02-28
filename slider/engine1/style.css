@@ -223,23 +223,6 @@
   font-style: normal;
 }
 
-#wowslider-container1 .ws_fullscreen {
-	display: none;
-	position: absolute;
-	font-family: "fullscreen";
-	top: .5em;
-	right: .5em;
-	font-size: 2.25em;
-	z-index: 61;
-	color: #fff;
-}
-#wowslider-container1:hover .ws_fullscreen {
-	display: block;
-}
-#wowslider-container1 .ws_fullscreen:after {
-	content: '\e800';
-}
-
 #wowslider-container1 .ws_bullets {
 	margin-right: 6em;
 }
@@ -271,9 +254,6 @@
 	display: block;
 }
 */
-.ws_fs_wrapper > #wowslider-container1 .ws_fullscreen:after {
-	content: '\e801';
-}
 
 .ws_fs_wrapper > #wowslider-container1 {
 	border: 0;

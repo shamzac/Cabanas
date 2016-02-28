@@ -1,6 +1,10 @@
-#b1 {
-	background-color: #116857;
-	width: 110%;
+html {
+	overflow-Y: scroll;
+}
+
+
+#spanb1 {
+	top: 0;
 }
 
 article {
@@ -22,3 +26,26 @@ p.infoindex {
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 }
+
+@media screen and (max-width: 800px) {
+	p.infoindex {
+	font-size: 16px;
+}
+
+	article {
+	height: 360px;
+}
+}/*Final Media Querie*/
+
+@media screen and (max-width: 400px) {
+
+	p.infoindex {
+	font-size: 13px;
+}
+
+	article {
+	height: 260px;
+}
+
+
+}/*Final Media Querie*/
