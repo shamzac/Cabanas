@@ -11,9 +11,50 @@
 	height: 380px;
 }
 
+#a1 {
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
 #a2 {
+	float: right;
 	margin: 0px;
 	width: 50%;
 	display: inline-block;
 	position: absolute;
 }
+
+#a1_responsive {
+	display: none;
+}
+
+#a2_responsive {
+	display: none;
+}
+
+@media screen and (max-width: 670px) {
+	#a12 {
+	display: none !important;
+}
+
+	#a1_responsive {
+	display: block !important;
+}
+
+	#a2_responsive {
+	display: block !important;
+}
+
+}/*Final Media Querie*/
+
+@media screen and (max-width: 480px) {
+	
+	#a1_responsive {
+	height: 260px;
+	padding: 10px;
+}
+
+}/*Final Media Querie*/
