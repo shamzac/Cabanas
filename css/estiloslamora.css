@@ -12,7 +12,27 @@ p.particle {
 
 #a12 {
 	padding: 0px;
-	height: 364px;
+}
+
+#a1 {
+	float: left;
+	margin: 0px;
+	width: 50%;
+	height: 100%;
+}
+
+#a2 {
+	float: right;
+	margin: 0px;
+	width: 50%;
+}
+
+#a1_responsive {
+	display: none;
+}
+
+#a2_responsive {
+	display: none;
 }
 
 #a1 {
@@ -23,6 +43,7 @@ p.particle {
 }
 
 #a2 {
+	padding-left: 0px;
 	float: right;
 	margin: 0px;
 	width: 50%;
@@ -31,7 +52,7 @@ p.particle {
 
 .fotocabana {
 	width: 100%;
-
+	max-height: 250px;
 }
 
 #a3 {
@@ -55,7 +76,28 @@ div.imagen img {
 }
 
 @media screen and (max-width: 912px) {
-	.contenedorimages {
-		max-width: 390px;
-    	margin: auto;
+	#a1pnormal {
+	font-size: 16px !important;
 }
+
+	.contenedorimages {
+	max-width: 390px;
+    margin: auto;
+}
+
+}/*Final Media Querie*/
+
+@media screen and (max-width: 670px) {
+	#a12 {
+	display: none !important;
+}
+
+	#a1_responsive {
+	display: block !important;
+}
+
+	#a2_responsive {
+	display: block !important;
+}
+
+}/*Final Media Querie*/
